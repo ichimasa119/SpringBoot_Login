@@ -13,19 +13,17 @@
 <h1>Login</h1>
 <form method = "post" action = "/login">
 <!-- ユーザーID -->
-<label>ユーザーID</label>
-<input type = "text"><br/>
+<input type = "text" placeholder = "ユーザーID"><br/>
 <br/>
 <!-- パスワード -->
-<label>パスワード</label>
-<input type = "password"><br/>
+<input type = "password" placeholder = "パスワード"><br/>
 <br/>
 <!-- ログインボタン -->
 <button class = "btn btn-primary" type = "submit">ログイン</button>
 </form>
 <br/>
 <!-- ユーザー登録画面へのリンク --><!-- signup.htmlを設定 -->
-<a th:href = "@{'/signup'}">ユーザー登録画面はこちら</a>
+<a th:href = "@{'/signup'}">新しいアカウントを作成</a>
 
 
 
